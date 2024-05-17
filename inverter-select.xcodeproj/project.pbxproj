@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		344247EA2BF7AD8F00ED7D62 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344247E92BF7AD8F00ED7D62 /* ResultsView.swift */; };
+		344247ED2BF7B42200ED7D62 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344247EC2BF7B42200ED7D62 /* FormView.swift */; };
+		344247EF2BF7BB6300ED7D62 /* StatefulPreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344247EE2BF7BB6300ED7D62 /* StatefulPreviewWrapper.swift */; };
 		34E2DA832BF6B3F70096D6AA /* inverter_selectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2DA822BF6B3F70096D6AA /* inverter_selectApp.swift */; };
 		34E2DA852BF6B3F70096D6AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2DA842BF6B3F70096D6AA /* ContentView.swift */; };
 		34E2DA872BF6B3F70096D6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E2DA862BF6B3F70096D6AA /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		344247E92BF7AD8F00ED7D62 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		344247EC2BF7B42200ED7D62 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		344247EE2BF7BB6300ED7D62 /* StatefulPreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulPreviewWrapper.swift; sourceTree = "<group>"; };
 		34E2DA7F2BF6B3F70096D6AA /* inverter-select.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inverter-select.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E2DA822BF6B3F70096D6AA /* inverter_selectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inverter_selectApp.swift; sourceTree = "<group>"; };
 		34E2DA842BF6B3F70096D6AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				344247E92BF7AD8F00ED7D62 /* ResultsView.swift */,
+				344247EC2BF7B42200ED7D62 /* FormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -66,6 +71,7 @@
 				34E2DA842BF6B3F70096D6AA /* ContentView.swift */,
 				34E2DA862BF6B3F70096D6AA /* Assets.xcassets */,
 				34E2DA882BF6B3F70096D6AA /* Preview Content */,
+				344247EE2BF7BB6300ED7D62 /* StatefulPreviewWrapper.swift */,
 			);
 			path = "inverter-select";
 			sourceTree = "<group>";
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344247ED2BF7B42200ED7D62 /* FormView.swift in Sources */,
 				34E2DA852BF6B3F70096D6AA /* ContentView.swift in Sources */,
 				344247EA2BF7AD8F00ED7D62 /* ResultsView.swift in Sources */,
 				34E2DA832BF6B3F70096D6AA /* inverter_selectApp.swift in Sources */,
+				344247EF2BF7BB6300ED7D62 /* StatefulPreviewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
