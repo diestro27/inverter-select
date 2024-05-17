@@ -14,6 +14,7 @@ struct ContentView: View {
   let inverters = ["30K-3P-208V-N", "15K-2P-N", "12K-2P-N", "5K-1P-N"];
     
     var body: some View {
+      NavigationView {
         VStack {
             Image("logo-official")
                 .resizable()
@@ -32,10 +33,7 @@ struct ContentView: View {
                 }
               }
             }
-          
-          Button(action: {
-            print("Submit button tapped with name: \(name) and inverter: \(inverter).")
-          }) {
+          NavigationLink(destination: ResultsView(name: name, inverter: inverter)) {
             Text("Submit")
               .padding()
               .frame(maxWidth: .infinity)
@@ -47,6 +45,7 @@ struct ContentView: View {
           .padding(.top, 16)
         }
         .padding()
+        }
     }
 }
 
